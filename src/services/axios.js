@@ -1,0 +1,6 @@
+import axios from 'axios';
+
+export default axios.create({
+  baseURL: 'http://35.199.87.114:81/',
+  mode: 'no-cors',
+});
